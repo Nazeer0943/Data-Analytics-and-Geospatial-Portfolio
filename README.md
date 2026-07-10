@@ -18,14 +18,13 @@ Welcome! This repository serves as a centralized showcase of my work as a Data A
 *   **Objective:** Conducted high-precision geospatial visualization and digitized vector layers (points, lines, polygons) using QGIS to analyze healthcare facility accessibility and identify community coverage gaps.
 *   **Impact:** Awarded **3rd Place in the DSN World GIS Map Challenge** for outstanding cartographic design, regional print layouts, and optimization insights.
 *   **Tech Stack:** QGIS, Spatial Joins, Coordinate Reference Systems (CRS), Vector Digitization.
-*   *📂 Project Link coming soon (Currently under development)*
+*   *🔗 [View Script & Pipeline Documentation](./project-web-scraping)*
 
 ### 02. Web Scraping & Automated Data Extraction Pipeline
 *   **Objective:** Developed a Python extraction script to scrape regional indicators and health data from public APIs and web sources, handling structural data anomalies and cleaning the output into structured dataframes.
 *   **Impact:** Eliminated manual data gathering bottlenecks, ensured high data integrity, and prepared clean datasets ready for relational database loading.
 *   **Tech Stack:** Python (Requests, Pandas), JSON Parsing, Data Wrangling.
-*   *📂 Project Link coming soon (Currently under development)*
-
+*   *🔗 [View Project Repository & Visuals](./project-gis-health)*
 ---
 
 ## 📊 Analytics & Operational Audits (60-Project Series)
