@@ -5,11 +5,23 @@ This project evaluates the operational performance and community resistance patt
 
 ---
 
-## 🛠️ Data Audit & Excel Methodology
-The analysis was executed strictly through deterministic Excel functions to ensure reproducible auditing logic across **two comprehensive data dimensions**:
+## 📋 Case Study Requirements & Scope
 
-1. **Epidemiological Coverage Metrics:** Automated coverage tracking by mapping localized vaccinations against true demographic target populations ($\text{Coverage} = \frac{\text{Children Vaccinated}}{\text{Target Population}}$) across 12 distinct Local Government Areas (LGAs).
-2. **Non-Compliance & Resolution Forensics:** Programmed an dynamic text parsing and validation loop using `XLOOKUP` and logical error-trapping (`IF`, `ISBLANK`) to map short-code field logs to descriptive socio-behavioral barriers, calculating real-time refusal resolution rates across field-revisit iterations.
+The analysis addresses the following core technical and strategic evaluation prompts:
+
+1. **Vaccination Coverage by Round:** Calculate vaccine coverage rates at the state level and for each individual LGA for both Round 1 and Round 2, computing the absolute net change to isolate improving and declining sectors.
+2. **Non-Compliance & Resolution Forensics:** Quantify the total population of non-compliant children per round and determine the precise proportion of refusal cases remaining "pending" at the close of field execution windows.
+3. **Socio-Behavioral Reason Analysis:** Implement programmatic lookups to dynamically map shorthand localized field codes to descriptive operational and structural barriers without hardcoding text.
+4. **Strategic Translation:** Synthesize findings into a high-level executive presentation providing targeted field adjustments, micro-level operational audits, and future community outreach criteria.
+
+---
+
+## 🛠️ Data Audit & Excel Methodology
+The analysis was executed strictly through deterministic Excel functions to ensure reproducible auditing logic across two comprehensive data dimensions:
+
+*   **Epidemiological Coverage Metrics:** Automated coverage tracking by mapping localized vaccinations against true demographic target populations across 12 distinct Local Government Areas (LGAs):
+    $$\text{Vaccine Coverage} = \frac{\text{Children Vaccinated}}{\text{Target Population}}$$
+*   **Non-Compliance & Resolution Forensics:** Programmed a dynamic text-parsing loop using `XLOOKUP` combined with logical error-trapping (`IF`, `ISBLANK`) to seamlessly decode socio-behavioral field boundaries while systematically suppressing blank record errors.
 
 ---
 
