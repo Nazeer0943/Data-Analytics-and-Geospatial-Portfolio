@@ -17,8 +17,9 @@ This project focuses on identifying community healthcare coverage gaps and optim
 
 ## 📸 Map Visualization & Layouts
 
-*📂 [Placeholder: Upload your high-resolution map export image to this folder and link it here using markdown: `![Regional Health Map Layout](map_image.png)`]*
+![Regional Health Map Layout](DSN_Hackathon_page-0001.jpg)
 
+💡 *Note: You can review the full, high-resolution document by downloading the [Official Submission PDF](./Hackathon_Submission_NazirSani.pdf).*
 ---
 
 ## 📈 Key Insights & Deliverables
