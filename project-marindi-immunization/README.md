@@ -1,46 +1,319 @@
-# 📊 Public Health Outbreak Response: Operational Campaign Audit
+<p align="center">
+  <img src="./cover.png" alt="Marindi State ONV Campaign Review" width="100%">
+</p>
 
-## 📌 Project Overview
-This project evaluates the operational performance and community resistance patterns during a two-round Oral Nyala Vaccine (ONV) immunization campaign in Marindi State. Acting as the Lead Monitoring & Evaluation (M&E) Officer, I engineered an analytical framework in Microsoft Excel to audit multi-tier field data (State > LGA > Ward) and translated complex metrics into an executive strategic briefing for the State Director of Disease Control.
+# 🏥 Public Health Outbreak Response Audit
+### *Operational Campaign Performance Analysis for the Marindi State Oral Nyala Vaccine (ONV) Campaign*
 
----
-
-## 📋 Case Study Requirements & Scope
-
-The analysis addresses the following core technical and strategic evaluation prompts:
-
-1. **Vaccination Coverage by Round:** Calculate vaccine coverage rates at the state level and for each individual LGA for both Round 1 and Round 2, computing the absolute net change to isolate improving and declining sectors.
-2. **Non-Compliance & Resolution Forensics:** Quantify the total population of non-compliant children per round and determine the precise proportion of refusal cases remaining "pending" at the close of field execution windows.
-3. **Socio-Behavioral Reason Analysis:** Implement programmatic lookups to dynamically map shorthand localized field codes to descriptive operational and structural barriers without hardcoding text.
-4. **Strategic Translation:** Synthesize findings into a high-level executive presentation providing targeted field adjustments, micro-level operational audits, and future community outreach criteria.
+> A comprehensive monitoring and evaluation (M&E) case study analyzing vaccination coverage, operational efficiency, and vaccine hesitancy trends across two immunization rounds using Microsoft Excel.
 
 ---
 
-## 🛠️ Data Audit & Excel Methodology
-The analysis was executed strictly through deterministic Excel functions to ensure reproducible auditing logic across two comprehensive data dimensions:
+# 📌 Executive Summary
 
-*   **Epidemiological Coverage Metrics:** Automated coverage tracking by mapping localized vaccinations against true demographic target populations across 12 distinct Local Government Areas (LGAs):
-    $$\text{Vaccine Coverage} = \frac{\text{Children Vaccinated}}{\text{Target Population}}$$
-*   **Non-Compliance & Resolution Forensics:** Programmed a dynamic text-parsing loop using `XLOOKUP` combined with logical error-trapping (`IF`, `ISBLANK`) to seamlessly decode socio-behavioral field boundaries while systematically suppressing blank record errors.
+This project presents a comprehensive operational audit of the **Marindi State Oral Nyala Vaccine (ONV) Campaign**, conducted over two vaccination rounds.
 
----
+Acting as the **State Monitoring & Evaluation (M&E) Officer**, I analyzed campaign performance data collected across **State → Local Government Area (LGA) → Ward** levels to evaluate vaccination coverage, investigate non-compliance patterns, identify operational weaknesses, and provide evidence-based recommendations for future outbreak response campaigns.
 
-## 📈 Key Analytical Insights & Executive Deliverables
-
-### 1. Macro-Level Expansion vs. Micro-Vulnerability
-* **The Finding:** Marindi State achieved an overall coverage growth of **+3.66%**, expanding from **92.62%** in Round 1 to **96.28%** in Round 2.
-* **The Operational Catch:** While 8 out of 12 LGAs expanded coverage (led by Falpani at **+8.78%**), a critical operational drop was isolated in **Doriga (-8.56%)**, signaling severe localized field execution gaps or cold-chain dropouts despite state-level success.
-
-### 2. Behavioral Shift in Vaccine Hesitancy
-* Systematic inter-round household revisits proved highly effective. Field teams achieved a dramatic reduction in pending refusals, dropping the state's pending rate from **30.27%** down to **11.73%**.
-* Institutional barriers declined significantly (Religious beliefs dropped **-28.4%**), but **micro-level domestic resistance rose**, with father-led vaccine refusals expanding by **+39.6%** (moving from 106 to 148 cases).
+Using advanced Microsoft Excel functions, dynamic lookup techniques, and executive-level reporting, I transformed raw campaign records into actionable insights that support strategic decision-making.
 
 ---
 
-## 📂 Repository Deliverables
+# 🎯 Business Problem
 
-* 📁 **[Download Fully Formulated Analytical Model (Excel)](./Nazir_Sani_Sol.xlsx)** — *Features comprehensive cell-referencing formulas, XLOOKUP integrations, and data validation layers.*
-* 📁 **[View Executive Strategic Briefing (PDF Layout)](./Operational_Campaign_Review_Marindi.pdf)** — *The 5-slide C-suite presentation delivering data-driven field recommendations to senior health directors.*
+Despite achieving high statewide vaccination coverage, public health programmes often struggle to identify localized operational failures hidden beneath aggregated statistics.
+
+The Ministry of Health required an analytical review capable of answering critical questions:
+
+- Which LGAs improved between campaign rounds?
+- Which locations experienced declining performance?
+- What factors contributed to vaccine refusal?
+- Were field teams successfully resolving non-compliance cases?
+- What operational improvements should be implemented before the next campaign?
+
+This project answers those questions through data-driven analysis and executive reporting.
 
 ---
-[⬅️ Back to Main Portfolio](../)
+
+# 📋 Project Objectives
+
+The project was designed to:
+
+- Measure vaccination coverage across both campaign rounds
+- Compare performance at State and LGA levels
+- Evaluate changes in vaccination coverage
+- Analyze non-compliance and pending refusal cases
+- Decode vaccine refusal reasons using dynamic Excel lookups
+- Identify behavioural and operational trends
+- Produce an executive presentation for senior decision-makers
+
+These objectives align with the original assessment requirements. :contentReference[oaicite:0]{index=0}
+
+---
+
+# 🗂 Dataset Overview
+
+The dataset represents a simulated immunization campaign conducted across multiple LGAs in Marindi State.
+
+### Data Hierarchy
+
+```
+State
+   ↓
+Local Government Area (LGA)
+   ↓
+Ward
+```
+
+Each record contains campaign indicators including:
+
+- Target population
+- Children vaccinated
+- Vaccination coverage
+- Non-compliance counts
+- Pending refusal cases
+- Vaccine refusal reason codes
+- Campaign Round (Round 1 & Round 2)
+
+---
+
+# 🛠 Analytical Workflow
+
+```
+Raw Campaign Dataset
+        │
+        ▼
+Data Validation & Cleaning
+        │
+        ▼
+Coverage Calculations
+        │
+        ▼
+XLOOKUP Reason Mapping
+        │
+        ▼
+Trend & Comparative Analysis
+        │
+        ▼
+Executive Dashboard
+        │
+        ▼
+Strategic Recommendations
+```
+
+---
+
+# 🔍 Analytical Approach
+
+The entire project was completed using **Microsoft Excel** without manual calculations.
+
+Techniques applied include:
+
+- Relative & Absolute Cell Referencing
+- XLOOKUP
+- IF Statements
+- ISBLANK
+- Arithmetic Functions
+- Percentage Calculations
+- Dynamic Formula Replication
+- Data Validation
+- Executive Dashboard Design
+
+Coverage was calculated using:
+
+\[
+\textbf{Coverage}=\frac{\text{Children Vaccinated}}{\text{Target Population}}
+\]
+
+---
+
+# 📈 Key Findings
+
+## 1️⃣ Statewide Campaign Performance
+
+The campaign achieved a significant improvement between both rounds.
+
+| Metric | Round 1 | Round 2 |
+|---------|---------|---------|
+| State Coverage | **92.62%** | **96.28%** |
+
+### Net Improvement
+
+✅ **+3.66%**
+
+This demonstrates overall operational success across the state while masking localized performance gaps identified during the analysis. The presentation highlights these gains and contrasts them with declining LGAs. :contentReference[oaicite:1]{index=1}
+
+---
+
+## 2️⃣ Local Government Performance
+
+The analysis identified substantial geographical variation.
+
+### Highest Improvements
+
+- Falpani (+8.78%)
+- Girim (+6.76%)
+- Belocha (+6.17%)
+
+### Areas Requiring Immediate Investigation
+
+- Doriga (-8.56%)
+- Kweli (-2.52%)
+- Lumora (-2.36%)
+
+Although statewide performance improved, **Doriga recorded a critical decline**, indicating localized operational challenges requiring targeted intervention. :contentReference[oaicite:2]{index=2}
+
+---
+
+## 3️⃣ Non-Compliance Analysis
+
+Operational revisit strategies produced substantial improvements.
+
+### Pending Refusal Rate
+
+| Round | Pending Rate |
+|--------|--------------|
+| Round 1 | **30.27%** |
+| Round 2 | **11.73%** |
+
+### Improvement
+
+✅ **18.54 percentage-point reduction**
+
+This indicates that systematic follow-up activities significantly improved case resolution efficiency. :contentReference[oaicite:3]{index=3}
+
+---
+
+## 4️⃣ Behavioural Insights
+
+The analysis revealed an important behavioural shift.
+
+Institutional barriers declined substantially.
+
+Examples include:
+
+- Religious belief refusals ↓
+- Fear of adverse effects ↓
+
+However,
+
+Father-led vaccine refusal increased by
+
+**39.6%**
+
+This suggests that future interventions should shift from community-wide messaging toward targeted household engagement strategies. :contentReference[oaicite:4]{index=4}
+
+---
+
+# 💡 Strategic Recommendations
+
+Based on the analysis, three priority actions were recommended.
+
+## 1. Conduct Micro-Targeted Operational Audits
+
+Focus rapid-response teams on:
+
+- Doriga
+- Kweli
+- Lumora
+- Hodu
+
+to investigate localized implementation failures.
+
+---
+
+## 2. Strengthen Household Engagement
+
+Develop communication campaigns aimed at:
+
+- Fathers
+- Household decision-makers
+- Male community leaders
+
+to reduce family-level vaccine resistance.
+
+---
+
+## 3. Institutionalize Revisit Protocols
+
+Standardize successful Round 2 revisit workflows across all LGAs to improve future campaign effectiveness and reduce unresolved non-compliance cases. These recommendations mirror the executive presentation prepared for campaign leadership. :contentReference[oaicite:5]{index=5}
+
+---
+
+# 📊 Project Deliverables
+
+📄 **Excel Analytical Model**
+
+- Dynamic formulas
+- XLOOKUP implementation
+- Automated calculations
+- Data validation
+- Transparent analytical workflow
+
+➡️ **[Download Excel Workbook](./Nazir_Sani_Sol.xlsx)**
+
+---
+
+📑 **Executive Presentation**
+
+Prepared for:
+
+**State Director of Disease Control & Immunization**
+
+Includes:
+
+- Campaign performance review
+- LGA comparison
+- Behavioural analysis
+- Operational recommendations
+
+➡️ **[View Presentation](./Operational_Campaign_Review_Marindi_Presentation_Slide.pdf)**
+
+---
+
+# 💻 Skills Demonstrated
+
+- Microsoft Excel
+- Data Cleaning
+- Monitoring & Evaluation (M&E)
+- Data Validation
+- XLOOKUP
+- IF Functions
+- Analytical Reporting
+- Public Health Analytics
+- Data Storytelling
+- Executive Presentation Design
+- Operational Performance Analysis
+
+---
+
+# 📚 Lessons Learned
+
+This project reinforced the importance of moving beyond aggregate performance metrics when evaluating public health programmes.
+
+Although statewide vaccination coverage improved considerably, deeper analysis revealed localized operational weaknesses and evolving behavioural barriers that would have remained hidden without structured analytical investigation.
+
+The experience demonstrated how rigorous data analysis can transform routine monitoring data into strategic recommendations that directly support evidence-based public health decision-making.
+
+---
+
+# 📂 Repository Contents
+
+```
+project-marindi-immunization/
+│
+├── Nazir_Sani_Sol.xlsx
+├── Operational_Campaign_Review_Marindi_Presentation_Slide.pdf
+├── cover.png
+└── README.md
+```
+
+---
+
+# 🔗 Return to Portfolio
+
+⬅️ **[Back to Main Portfolio](../)**
+
+---
+
+This project is part of my Core & Geospatial Data Analytics Portfolio and demonstrates practical experience in monitoring & evaluation, operational analytics, executive reporting, and public health decision support.**
