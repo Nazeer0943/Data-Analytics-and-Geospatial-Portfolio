@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Assests/Banner.png" alt="Nazir Sani Data Analytics & Geospatial Portfolio Banner">
+  <img src="Assests/Banner2.png" alt="Nazir Sani Data Analytics & Geospatial Portfolio Banner">
 </p>
 
 # 📊 Data Analytics & Geospatial Portfolio
