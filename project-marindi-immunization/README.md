@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./cover_1.jpg" alt="Marindi State ONV Campaign Review" width="100%">
+  <img src="./cover_1.jpg" alt="Marindi State ONV Campaign Review" width="90%">
 </p>
 
 # 🏥 Public Health Outbreak Response Audit
@@ -131,7 +131,17 @@ Coverage was calculated using:
 
 ## 1️⃣ Statewide Campaign Performance
 
-The campaign achieved a significant improvement between both rounds.
+---
+
+### 📊 Campaign Coverage Dashboard
+
+<p align="center">
+  <img src="./coverage_dashboard.jpg" alt="Campaign Coverage Dashboard" width="90%">
+</p>
+
+*Figure 1. Statewide vaccination coverage comparison across Round 1 and Round 2, highlighting high-performing and underperforming LGAs.*
+
+The campaign achieved a significant improvement between the two rounds.
 
 | Metric | Round 1 | Round 2 |
 |---------|---------|---------|
@@ -186,6 +196,16 @@ This indicates that systematic follow-up activities significantly improved case 
 
 ## 4️⃣ Behavioural Insights
 
+---
+
+### 📉 Non-Compliance & Behavioural Analysis Dashboard
+
+<p align="center">
+  <img src="./Non_Compliance.jpg" alt="Non-Compliance Dashboard" width="90%">
+</p>
+
+*Figure 2. Analysis of vaccine refusal patterns, pending non-compliance cases, and behavioural shifts between campaign rounds.*
+
 The analysis revealed an important behavioural shift.
 
 Institutional barriers declined substantially.
@@ -206,6 +226,12 @@ This suggests that future interventions should shift from community-wide messagi
 ---
 
 # 💡 Strategic Recommendations
+
+<p align="center">
+  <img src="./Recommendation.jpg" alt="Strategic Recommendations" width="90%">
+</p>
+
+*Figure 3. Executive recommendations prepared for the State Director of Disease Control based on analytical findings.*
 
 Based on the analysis, three priority actions were recommended.
 
