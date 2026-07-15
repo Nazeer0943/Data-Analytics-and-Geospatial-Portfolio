@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Assests/Banner.png" alt="Nazir Sani Data Analytics & Geospatial Portfolio Banner">
+</p>
+
 # 📊 Data Analytics & Geospatial Portfolio
 
 > Turning complex data into actionable insights through analytics, automation, and geospatial intelligence.
