@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./cover.png" alt="Marindi State ONV Campaign Review" width="100%">
+  <img src="./cover_1.jpg" alt="Marindi State ONV Campaign Review" width="100%">
 </p>
 
 # 🏥 Public Health Outbreak Response Audit
